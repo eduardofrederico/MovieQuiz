@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E674D6A62C81423300F61FD2 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E674D6A52C81423300F61FD2 /* QuizManager.swift */; };
 		E6A882442C7D4AED0027E0B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A882432C7D4AED0027E0B7 /* AppDelegate.swift */; };
 		E6A882462C7D4AED0027E0B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A882452C7D4AED0027E0B7 /* SceneDelegate.swift */; };
 		E6A882482C7D4AED0027E0B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A882472C7D4AED0027E0B7 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E674D6A52C81423300F61FD2 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 		E6A882402C7D4AED0027E0B7 /* MovieQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A882432C7D4AED0027E0B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6A882452C7D4AED0027E0B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				E6A882432C7D4AED0027E0B7 /* AppDelegate.swift */,
 				E6A882452C7D4AED0027E0B7 /* SceneDelegate.swift */,
 				E6A882472C7D4AED0027E0B7 /* ViewController.swift */,
+				E674D6A52C81423300F61FD2 /* QuizManager.swift */,
 				E6A882492C7D4AED0027E0B7 /* Main.storyboard */,
 				E6A882A02C7D56690027E0B7 /* GameOverViewController.swift */,
 				E6A8824F2C7D4AEF0027E0B7 /* Assets.xcassets */,
@@ -248,6 +251,7 @@
 				E6A882442C7D4AED0027E0B7 /* AppDelegate.swift in Sources */,
 				E6A882462C7D4AED0027E0B7 /* SceneDelegate.swift in Sources */,
 				E6A8824E2C7D4AED0027E0B7 /* MovieQuiz.xcdatamodeld in Sources */,
+				E674D6A62C81423300F61FD2 /* QuizManager.swift in Sources */,
 				E6A882A12C7D56690027E0B7 /* GameOverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

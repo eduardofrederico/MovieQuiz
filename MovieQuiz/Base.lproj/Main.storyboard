@@ -20,6 +20,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <view alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ry1-dq-pJb">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okp-nj-R4d">
                                 <rect key="frame" x="336" y="805" width="47" height="37"/>
                                 <state key="normal" title="Button"/>
@@ -97,6 +102,9 @@
                                         <rect key="frame" x="159" y="266.66666666666669" width="75" height="34.666666666666686"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain"/>
+                                        <connections>
+                                            <action selector="playQuiz" destination="BYZ-38-t0r" eventType="touchUpInside" id="E2A-H3-Odf"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -173,6 +181,7 @@
                         <outlet property="ivQuiz" destination="JOy-HN-Rmc" id="gL1-jT-41W"/>
                         <outlet property="slMusic" destination="eMV-Eh-LDM" id="SXy-CB-8Nx"/>
                         <outlet property="viSoundBar" destination="5oV-EU-F5J" id="CFs-bt-kNh"/>
+                        <outlet property="viTimer" destination="Ry1-dq-pJb" id="Uex-3d-MSo"/>
                         <outletCollection property="btOptions" destination="c1s-Db-otL" collectionClass="NSMutableArray" id="o0k-5W-LqX"/>
                         <outletCollection property="btOptions" destination="q2Y-fB-aAM" collectionClass="NSMutableArray" id="DIg-EI-acQ"/>
                         <outletCollection property="btOptions" destination="nXe-Ec-ApC" collectionClass="NSMutableArray" id="VGL-9k-1sE"/>
